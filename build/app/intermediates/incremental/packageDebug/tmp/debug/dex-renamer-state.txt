@@ -1,0 +1,4 @@
+#Sat Jan 28 12:27:19 WAT 2023
+base.0=/Users/mac/StudioProjects/innoscripta_test/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

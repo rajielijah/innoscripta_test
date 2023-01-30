@@ -22,8 +22,6 @@ dependencies:
   sqflite: 
   font_awesome_flutter: 
   flutter_slidable: 
-  about: 
-  url_launcher: 
   flutter_svg: 
   flutter_material_color_picker: 
   flutter_datetime_picker: 

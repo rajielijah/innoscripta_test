@@ -1,0 +1,252 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.innoscripta_test"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/mac/StudioProjects/innoscripta_test/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/mac/StudioProjects/innoscripta_test/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:file_picker] /Users/mac/StudioProjects/innoscripta_test/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+16-->[:file_picker] /Users/mac/StudioProjects/innoscripta_test/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+17
+18    <queries>
+18-->[:file_picker] /Users/mac/StudioProjects/innoscripta_test/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+19        <intent>
+19-->[:file_picker] /Users/mac/StudioProjects/innoscripta_test/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+20            <action android:name="android.intent.action.GET_CONTENT" />
+20-->[:file_picker] /Users/mac/StudioProjects/innoscripta_test/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+20-->[:file_picker] /Users/mac/StudioProjects/innoscripta_test/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+21
+22            <data android:mimeType="*/*" />
+22-->[:file_picker] /Users/mac/StudioProjects/innoscripta_test/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+22-->[:file_picker] /Users/mac/StudioProjects/innoscripta_test/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+26-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+27-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+28    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+28-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+28-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+29    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+29-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+29-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+30-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+31
+32    <permission
+32-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.innoscripta_test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.innoscripta_test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+36-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+37    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+38    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+39    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+40    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+41    <!-- for Samsung -->
+42    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+43    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+44    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+45    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+46    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+47    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+48    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+49    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+50    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+51    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+52    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+53    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+54    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+55    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+56    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/mac/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+58
+59    <application
+60        android:name="android.app.Application"
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.9.0] /Users/mac/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+62        android:debuggable="true"
+63        android:icon="@mipmap/ic_launcher"
+64        android:label="innoscripta_test" >
+65        <activity
+66            android:name="com.example.innoscripta_test.MainActivity"
+67            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+68            android:exported="true"
+69            android:hardwareAccelerated="true"
+70            android:launchMode="singleTop"
+71            android:theme="@style/LaunchTheme"
+72            android:windowSoftInputMode="adjustResize" >
+73
+74            <!--
+75                 Specifies an Android theme to apply to this Activity as soon as
+76                 the Android process has started. This theme is visible to the user
+77                 while the Flutter UI initializes. After that, this theme continues
+78                 to determine the Window background behind the Flutter UI.
+79            -->
+80            <meta-data
+81                android:name="io.flutter.embedding.android.NormalTheme"
+82                android:resource="@style/NormalTheme" />
+83
+84            <intent-filter>
+85                <action android:name="android.intent.action.MAIN" />
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+88            </intent-filter>
+89        </activity>
+90        <!--
+91             Don't delete the meta-data below.
+92             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+93        -->
+94        <meta-data
+95            android:name="flutterEmbedding"
+96            android:value="2" />
+97
+98        <receiver
+98-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+99            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+99-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
+100            android:exported="false" />
+100-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+101        <receiver
+101-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+102            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+102-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+103            android:exported="false" />
+103-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+104        <receiver
+104-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
+105            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+105-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
+106            android:exported="false" >
+106-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+107            <intent-filter>
+107-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
+108                <action android:name="android.intent.action.BOOT_COMPLETED" />
+108-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
+108-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
+109                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+109-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
+109-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
+110                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+110-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
+110-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
+111                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+111-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
+111-->[:flutter_local_notifications] /Users/mac/StudioProjects/innoscripta_test/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
+112            </intent-filter>
+113        </receiver>
+114
+115        <activity
+115-->[:url_launcher_android] /Users/mac/StudioProjects/innoscripta_test/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+116            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+116-->[:url_launcher_android] /Users/mac/StudioProjects/innoscripta_test/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+117            android:exported="false"
+117-->[:url_launcher_android] /Users/mac/StudioProjects/innoscripta_test/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+118            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+118-->[:url_launcher_android] /Users/mac/StudioProjects/innoscripta_test/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+119        <!--
+120           Declares a provider which allows us to store files to share in
+121           '.../caches/share_plus' and grant the receiving action access
+122        -->
+123        <provider
+123-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:20
+124            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+124-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-77
+125            android:authorities="com.example.innoscripta_test.flutter.share_provider"
+125-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-74
+126            android:exported="false"
+126-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+127            android:grantUriPermissions="true" >
+127-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-47
+128            <meta-data
+128-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:68
+129                android:name="android.support.FILE_PROVIDER_PATHS"
+129-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-67
+130                android:resource="@xml/flutter_share_file_paths" />
+130-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-65
+131        </provider>
+132        <!--
+133           This manifest declared broadcast receiver allows us to use an explicit
+134           Intent when creating a PendingItent to be informed of the user's choice
+135        -->
+136        <receiver
+136-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-34:20
+137            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+137-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-82
+138            android:exported="true" >
+138-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+139            <intent-filter>
+139-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33:29
+140                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+140-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:17-65
+140-->[:share_plus] /Users/mac/StudioProjects/innoscripta_test/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:32:25-62
+141            </intent-filter>
+142        </receiver>
+143
+144        <uses-library
+144-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+145            android:name="androidx.window.extensions"
+145-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+146            android:required="false" />
+146-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+147        <uses-library
+147-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+148            android:name="androidx.window.sidecar"
+148-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+149            android:required="false" />
+149-->[androidx.window:window:1.0.0-beta04] /Users/mac/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+150    </application>
+151
+152</manifest>
