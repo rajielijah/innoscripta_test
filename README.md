@@ -32,9 +32,6 @@ Flutter Version 3.0.1
 
 
 
-## How to Run the App
-
-
 ## Tech Stack
 - BloC Architecture Pattern
 - BloC State Management
