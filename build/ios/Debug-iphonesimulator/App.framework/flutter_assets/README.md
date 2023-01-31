@@ -24,11 +24,14 @@ Flutter Version 3.0.1
 * Export data as a `.csv` file, filtered by timespans.
 * Export the app's database for full access to all of its data
 * Automatic light mode / dark mode based on your device settings
-* Localized in several languages (thanks to [Google Translate](https://cloud.google.com/translate)): English, Arabic, German, Spanish, French, Hindi, Japanese, Korean, Portuguese, Russian, Chinese (Simplified), Chinese (Traditional), as well as Italian, Czech, Norwegian, and Indonesian (via contributors)
+* Localized in several languages (thanks to [Google Translate](https://cloud.google.com/translate)): English, Arabic, German, Spanish, French, Hindi, Japanese, Korean, Portuguese, Russian, Chinese (Simplified), Chinese (Traditional), as well as Italian, Czech, Norwegian.
 
 ## Some Extra and minor Features Included
 
 * In setting, you can switch for set timer for only one particular tasks
+* Search for tasks on dashboard
+* Filter out task with date on Dashboard
+* Enable or Disable Notifications in Settings
 
 
 

@@ -1,6 +1,7 @@
 # innoscripta_test
 
-According to the instruction of the challenge, 
+According to the instruction of the challenge, A time tracking application that tracks task, where the time can be start and stop, we can create more than one task at time and it will run concurrently. History of completed is being display on the dashboard including the time spent on each task and the date it
+was completed. On the menu, we have some extra features like the exporting of the csv files that can be filter by timespans and also the reports of the tasks that has being worked on so far. There is also the settings where we can change the theme from either Dart, Light, black or we can set it to automatic, also user can select any langauage of their choice they wish to use.
 In the process of completing this test, I use the Bloc State management. 
 Bloc Pattern is a design pattern which helps separate the presentation layer from the business logic. Some of these components used in this projects are reuseables.
 
